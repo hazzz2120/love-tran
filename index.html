@@ -45,19 +45,25 @@
           <!-- JS sẽ đưa gợi ý vào đây -->
         </p>
 
-        <div class="password-box">
-          <input
-            id="passwordInput"
-            type="password"
-            placeholder="Nhập mật khẩu..."
-            autocomplete="off"
-            spellcheck="false"
-          />
+ <div class="password-box">
+  <input
+    id="passwordInput"
+    type="text"
+    inputmode="numeric"
+    placeholder="DD/MM/YYYY"
+    maxlength="10"
+    autocomplete="off"
+    spellcheck="false"
+  />
 
-          <button id="passwordToggle" type="button" aria-label="Hiện mật khẩu">
-            👁
-          </button>
-        </div>
+  <button
+    id="passwordToggle"
+    type="button"
+    class="password-toggle"
+  >
+    👁
+  </button>
+</div>
 
         <button id="unlockButton" class="unlock-button" type="button">
           MỞ KHÓA

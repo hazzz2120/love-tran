@@ -5,7 +5,7 @@
 /*
    MẬT KHẨU
 */
-const ACCESS_PASSWORD = "06092026";
+const ACCESS_DATE = "06/09/2026";
 
 
 /*
@@ -27,7 +27,7 @@ const STOP_LINE_INDEX = 23;
 /*
    Tên sẽ hiện sau countdown
 */
-const SPECIAL_TEXT = "Trân";
+const SPECIAL_TEXT = "Bảo Trân";
 
 
 /*
@@ -135,43 +135,81 @@ let countdownInterval = null;
 
 
 /* ==========================================================
-   PASSWORD
+   PASSWORD / NGÀY MỞ KHÓA
 ========================================================== */
 
-passwordHint.textContent =
-  PASSWORD_HINT;
+passwordHint.textContent = PASSWORD_HINT;
 
 
 /*
-   Hiện / ẩn mật khẩu
+   Hiện / ẩn ngày
 */
 passwordToggle.addEventListener(
   "click",
   () => {
 
-    if (
-      passwordInput.type === "password"
-    ) {
+    if (passwordInput.type === "password") {
 
       passwordInput.type = "text";
 
-      passwordToggle.textContent =
-        "🙈";
+      passwordToggle.textContent = "🙈";
 
     } else {
 
-      passwordInput.type =
-        "password";
+      passwordInput.type = "password";
 
-      passwordToggle.textContent =
-        "👁";
+      passwordToggle.textContent = "👁";
     }
   }
 );
 
 
 /*
-   Kiểm tra mật khẩu
+   Kiểm tra ngày có hợp lệ hay không
+*/
+function isValidDateFormat(value) {
+
+  /*
+     Phải đúng dạng DD/MM/YYYY
+  */
+  const match =
+    value.match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
+
+  if (!match) {
+    return false;
+  }
+
+  const day =
+    Number(match[1]);
+
+  const month =
+    Number(match[2]);
+
+  const year =
+    Number(match[3]);
+
+
+  /*
+     Kiểm tra ngày tháng thực tế
+  */
+  const date =
+    new Date(
+      year,
+      month - 1,
+      day
+    );
+
+
+  return (
+    date.getFullYear() === year &&
+    date.getMonth() === month - 1 &&
+    date.getDate() === day
+  );
+}
+
+
+/*
+   Kiểm tra ngày mở khóa
 */
 function unlock() {
 
@@ -179,21 +217,41 @@ function unlock() {
     passwordInput.value.trim();
 
 
+  /*
+     Chưa nhập
+  */
   if (!value) {
 
     passwordError.textContent =
-      "Bạn chưa nhập mật khẩu.";
+      "Bạn chưa nhập ngày.";
+
+    passwordInput.focus();
 
     return;
   }
 
 
-  if (
-    value !== ACCESS_PASSWORD
-  ) {
+  /*
+     Sai định dạng
+  */
+  if (!isValidDateFormat(value)) {
 
     passwordError.textContent =
-      "Mật khẩu không đúng.";
+      "Vui lòng nhập ngày theo dạng DD/MM/YYYY.";
+
+    passwordInput.focus();
+
+    return;
+  }
+
+
+  /*
+     Sai ngày mở khóa
+  */
+  if (value !== ACCESS_DATE) {
+
+    passwordError.textContent =
+      "Ngày không đúng.";
 
     passwordInput.focus();
 
@@ -204,17 +262,20 @@ function unlock() {
 
 
   /*
-     ĐÚNG MẬT KHẨU
+     ĐÚNG NGÀY
   */
 
-  passwordError.textContent =
-    "";
+  passwordError.textContent = "";
+
 
   passwordScreen.classList.add(
     "hidden"
   );
 
 
+  /*
+     Hiện màn hình chào
+  */
   setTimeout(
     () => {
 
@@ -228,6 +289,9 @@ function unlock() {
 }
 
 
+/*
+   Nút MỞ KHÓA
+*/
 unlockButton.addEventListener(
   "click",
   unlock
@@ -241,16 +305,64 @@ passwordInput.addEventListener(
   "keydown",
   event => {
 
-    if (
-      event.key === "Enter"
-    ) {
+    if (event.key === "Enter") {
 
       unlock();
+
     }
   }
 );
 
 
+/*
+   Tự động thêm dấu /
+
+   Ví dụ:
+
+   06092026
+        ↓
+   06/09/2026
+*/
+passwordInput.addEventListener(
+  "input",
+  () => {
+
+    let value =
+      passwordInput.value
+        .replace(/\D/g, "")
+        .slice(0, 8);
+
+
+    if (value.length >= 5) {
+
+      value =
+        value.slice(0, 2) +
+        "/" +
+        value.slice(2, 4) +
+        "/" +
+        value.slice(4);
+
+    } else if (value.length >= 3) {
+
+      value =
+        value.slice(0, 2) +
+        "/" +
+        value.slice(2);
+
+    }
+
+
+    passwordInput.value =
+      value;
+
+
+    /*
+       Xóa thông báo lỗi khi người dùng
+       bắt đầu nhập lại
+    */
+    passwordError.textContent = "";
+  }
+);
 /* ==========================================================
    BACKGROUND STARS
 ========================================================== */
