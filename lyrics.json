@@ -1,0 +1,2431 @@
+[
+  {
+    "word": "Nhẹ",
+    "start": 12.99,
+    "end": 13.189,
+    "confidence": 0.955,
+    "line_index": 0
+  },
+  {
+    "word": "nhàng",
+    "start": 13.189,
+    "end": 13.39,
+    "confidence": 0.943,
+    "line_index": 0
+  },
+  {
+    "word": "một",
+    "start": 13.474,
+    "end": 13.79,
+    "confidence": 0.933,
+    "line_index": 0
+  },
+  {
+    "word": "chiếc",
+    "start": 13.79,
+    "end": 14.168,
+    "confidence": 0.583,
+    "line_index": 0
+  },
+  {
+    "word": "hôn",
+    "start": 14.194,
+    "end": 14.516,
+    "confidence": 0.884,
+    "line_index": 0
+  },
+  {
+    "word": "Vùi",
+    "start": 14.938,
+    "end": 15.056,
+    "confidence": 0.762,
+    "line_index": 1
+  },
+  {
+    "word": "mình",
+    "start": 15.056,
+    "end": 15.3,
+    "confidence": 0.978,
+    "line_index": 1
+  },
+  {
+    "word": "trong",
+    "start": 15.323,
+    "end": 15.526,
+    "confidence": 0.915,
+    "line_index": 1
+  },
+  {
+    "word": "đám",
+    "start": 15.529,
+    "end": 15.937,
+    "confidence": 0.975,
+    "line_index": 1
+  },
+  {
+    "word": "mây",
+    "start": 15.937,
+    "end": 16.46,
+    "confidence": 0.701,
+    "line_index": 1
+  },
+  {
+    "word": "đang",
+    "start": 16.46,
+    "end": 16.658,
+    "confidence": 0.968,
+    "line_index": 1
+  },
+  {
+    "word": "trôi",
+    "start": 16.72,
+    "end": 17.255,
+    "confidence": 0.93,
+    "line_index": 1
+  },
+  {
+    "word": "lả",
+    "start": 17.346,
+    "end": 17.644,
+    "confidence": 0.91,
+    "line_index": 1
+  },
+  {
+    "word": "lướt",
+    "start": 17.723,
+    "end": 18.109,
+    "confidence": 0.832,
+    "line_index": 1
+  },
+  {
+    "word": "nhẹ",
+    "start": 20.105,
+    "end": 20.277,
+    "confidence": 0,
+    "line_index": 2
+  },
+  {
+    "word": "nhàng",
+    "start": 20.285,
+    "end": 20.572,
+    "confidence": 0.969,
+    "line_index": 2
+  },
+  {
+    "word": "đôi",
+    "start": 20.574,
+    "end": 20.772,
+    "confidence": 0.96,
+    "line_index": 2
+  },
+  {
+    "word": "mắt",
+    "start": 20.808,
+    "end": 21.173,
+    "confidence": 0.927,
+    "line_index": 2
+  },
+  {
+    "word": "anh",
+    "start": 21.228,
+    "end": 21.63,
+    "confidence": 0.984,
+    "line_index": 2
+  },
+  {
+    "word": "Chìm",
+    "start": 21.833,
+    "end": 22.102,
+    "confidence": 0.966,
+    "line_index": 3
+  },
+  {
+    "word": "vào",
+    "start": 22.109,
+    "end": 22.296,
+    "confidence": 0.863,
+    "line_index": 3
+  },
+  {
+    "word": "cùng",
+    "start": 22.305,
+    "end": 22.47,
+    "confidence": 0.853,
+    "line_index": 3
+  },
+  {
+    "word": "nắng",
+    "start": 22.476,
+    "end": 22.914,
+    "confidence": 0.708,
+    "line_index": 3
+  },
+  {
+    "word": "mai",
+    "start": 22.929,
+    "end": 23.393,
+    "confidence": 0.96,
+    "line_index": 3
+  },
+  {
+    "word": "đang",
+    "start": 23.428,
+    "end": 23.622,
+    "confidence": 0.826,
+    "line_index": 3
+  },
+  {
+    "word": "rơi",
+    "start": 23.624,
+    "end": 23.895,
+    "confidence": 0.909,
+    "line_index": 3
+  },
+  {
+    "word": "giọt",
+    "start": 24.255,
+    "end": 24.722,
+    "confidence": 0.921,
+    "line_index": 3
+  },
+  {
+    "word": "trên",
+    "start": 24.732,
+    "end": 25.176,
+    "confidence": 0.687,
+    "line_index": 3
+  },
+  {
+    "word": "tóc",
+    "start": 25.224,
+    "end": 25.477,
+    "confidence": 0.686,
+    "line_index": 3
+  },
+  {
+    "word": "em",
+    "start": 25.479,
+    "end": 25.863,
+    "confidence": 0.654,
+    "line_index": 3
+  },
+  {
+    "word": "phiêu",
+    "start": 25.925,
+    "end": 26.423,
+    "confidence": 0.765,
+    "line_index": 3
+  },
+  {
+    "word": "bồng",
+    "start": 26.53,
+    "end": 27.617,
+    "confidence": 0.736,
+    "line_index": 3
+  },
+  {
+    "word": "Để",
+    "start": 28.014,
+    "end": 28.241,
+    "confidence": 0.49,
+    "line_index": 4
+  },
+  {
+    "word": "lại",
+    "start": 28.261,
+    "end": 28.667,
+    "confidence": 0.886,
+    "line_index": 4
+  },
+  {
+    "word": "những",
+    "start": 28.687,
+    "end": 28.982,
+    "confidence": 0.93,
+    "line_index": 4
+  },
+  {
+    "word": "dấu",
+    "start": 28.993,
+    "end": 29.626,
+    "confidence": 0.886,
+    "line_index": 4
+  },
+  {
+    "word": "yêu,",
+    "start": 29.638,
+    "end": 30.454,
+    "confidence": 0.98,
+    "line_index": 4
+  },
+  {
+    "word": "vấn",
+    "start": 30.47,
+    "end": 30.865,
+    "confidence": 0.995,
+    "line_index": 4
+  },
+  {
+    "word": "vương",
+    "start": 30.924,
+    "end": 31.364,
+    "confidence": 0.554,
+    "line_index": 4
+  },
+  {
+    "word": "ngày",
+    "start": 31.384,
+    "end": 31.761,
+    "confidence": 0.913,
+    "line_index": 4
+  },
+  {
+    "word": "ta",
+    "start": 31.767,
+    "end": 32.13,
+    "confidence": 0.986,
+    "line_index": 4
+  },
+  {
+    "word": "đến",
+    "start": 32.204,
+    "end": 32.378,
+    "confidence": 0.994,
+    "line_index": 4
+  },
+  {
+    "word": "bên",
+    "start": 32.394,
+    "end": 32.941,
+    "confidence": 0.995,
+    "line_index": 4
+  },
+  {
+    "word": "nhau",
+    "start": 33.066,
+    "end": 33.974,
+    "confidence": 0.971,
+    "line_index": 4
+  },
+  {
+    "word": "Nhẹ",
+    "start": 35.06,
+    "end": 35.224,
+    "confidence": 0.969,
+    "line_index": 5
+  },
+  {
+    "word": "nhàng",
+    "start": 35.233,
+    "end": 35.562,
+    "confidence": 0.978,
+    "line_index": 5
+  },
+  {
+    "word": "những",
+    "start": 35.563,
+    "end": 36.118,
+    "confidence": 0.943,
+    "line_index": 5
+  },
+  {
+    "word": "câu",
+    "start": 36.162,
+    "end": 36.572,
+    "confidence": 0.98,
+    "line_index": 5
+  },
+  {
+    "word": "ca",
+    "start": 36.592,
+    "end": 36.978,
+    "confidence": 0.763,
+    "line_index": 5
+  },
+  {
+    "word": "em",
+    "start": 36.981,
+    "end": 37.435,
+    "confidence": 0.964,
+    "line_index": 5
+  },
+  {
+    "word": "dành",
+    "start": 37.474,
+    "end": 37.943,
+    "confidence": 0.991,
+    "line_index": 5
+  },
+  {
+    "word": "tặng",
+    "start": 37.953,
+    "end": 38.393,
+    "confidence": 0.927,
+    "line_index": 5
+  },
+  {
+    "word": "anh",
+    "start": 38.555,
+    "end": 41.696,
+    "confidence": 0.998,
+    "line_index": 5
+  },
+  {
+    "word": "Và",
+    "start": 41.797,
+    "end": 42.13,
+    "confidence": 0.989,
+    "line_index": 6
+  },
+  {
+    "word": "thế",
+    "start": 42.157,
+    "end": 42.385,
+    "confidence": 0.918,
+    "line_index": 6
+  },
+  {
+    "word": "giới",
+    "start": 42.442,
+    "end": 42.828,
+    "confidence": 0.685,
+    "line_index": 6
+  },
+  {
+    "word": "đã",
+    "start": 42.852,
+    "end": 43.107,
+    "confidence": 0.726,
+    "line_index": 6
+  },
+  {
+    "word": "mất",
+    "start": 43.124,
+    "end": 43.699,
+    "confidence": 0.961,
+    "line_index": 6
+  },
+  {
+    "word": "đi",
+    "start": 43.702,
+    "end": 44.031,
+    "confidence": 0.952,
+    "line_index": 6
+  },
+  {
+    "word": "một",
+    "start": 44.111,
+    "end": 44.542,
+    "confidence": 0.572,
+    "line_index": 6
+  },
+  {
+    "word": "người",
+    "start": 44.552,
+    "end": 44.965,
+    "confidence": 0.127,
+    "line_index": 6
+  },
+  {
+    "word": "cô",
+    "start": 44.974,
+    "end": 45.38,
+    "confidence": 0.022,
+    "line_index": 6
+  },
+  {
+    "word": "đơn",
+    "start": 45.426,
+    "end": 47.366,
+    "confidence": 0,
+    "line_index": 6
+  },
+  {
+    "word": "Vì",
+    "start": 48.648,
+    "end": 49.163,
+    "confidence": 0.11,
+    "line_index": 7
+  },
+  {
+    "word": "giờ",
+    "start": 49.188,
+    "end": 49.4,
+    "confidence": 0.167,
+    "line_index": 7
+  },
+  {
+    "word": "đã",
+    "start": 49.425,
+    "end": 49.748,
+    "confidence": 0.055,
+    "line_index": 7
+  },
+  {
+    "word": "có",
+    "start": 49.824,
+    "end": 50.178,
+    "confidence": 0.247,
+    "line_index": 7
+  },
+  {
+    "word": "anh",
+    "start": 50.253,
+    "end": 50.713,
+    "confidence": 0.324,
+    "line_index": 7
+  },
+  {
+    "word": "để",
+    "start": 50.726,
+    "end": 51.109,
+    "confidence": 0.28,
+    "line_index": 7
+  },
+  {
+    "word": "em",
+    "start": 51.201,
+    "end": 51.643,
+    "confidence": 0.386,
+    "line_index": 7
+  },
+  {
+    "word": "được",
+    "start": 51.67,
+    "end": 52.073,
+    "confidence": 0.392,
+    "line_index": 7
+  },
+  {
+    "word": "yêu",
+    "start": 52.074,
+    "end": 52.514,
+    "confidence": 0.555,
+    "line_index": 7
+  },
+  {
+    "word": "thương",
+    "start": 52.58,
+    "end": 53.784,
+    "confidence": 0.489,
+    "line_index": 7
+  },
+  {
+    "word": "nhiều",
+    "start": 53.82,
+    "end": 54.271,
+    "confidence": 0.568,
+    "line_index": 7
+  },
+  {
+    "word": "hơn",
+    "start": 54.294,
+    "end": 55.739,
+    "confidence": 0.488,
+    "line_index": 7
+  },
+  {
+    "word": "Và",
+    "start": 55.81,
+    "end": 56.176,
+    "confidence": 0.407,
+    "line_index": 8
+  },
+  {
+    "word": "thế",
+    "start": 56.184,
+    "end": 56.434,
+    "confidence": 0,
+    "line_index": 8
+  },
+  {
+    "word": "giới",
+    "start": 56.446,
+    "end": 56.932,
+    "confidence": 0.012,
+    "line_index": 8
+  },
+  {
+    "word": "đã",
+    "start": 56.946,
+    "end": 57.266,
+    "confidence": 0,
+    "line_index": 8
+  },
+  {
+    "word": "mất",
+    "start": 57.356,
+    "end": 57.82,
+    "confidence": 0.523,
+    "line_index": 8
+  },
+  {
+    "word": "đi",
+    "start": 57.829,
+    "end": 58.158,
+    "confidence": 0.593,
+    "line_index": 8
+  },
+  {
+    "word": "một",
+    "start": 58.256,
+    "end": 58.661,
+    "confidence": 0.273,
+    "line_index": 8
+  },
+  {
+    "word": "người",
+    "start": 58.664,
+    "end": 59.107,
+    "confidence": 0.34,
+    "line_index": 8
+  },
+  {
+    "word": "cô",
+    "start": 59.124,
+    "end": 59.523,
+    "confidence": 0.007,
+    "line_index": 8
+  },
+  {
+    "word": "đơn,",
+    "start": 60.095,
+    "end": 60.786,
+    "confidence": 0,
+    "line_index": 8
+  },
+  {
+    "word": "cô",
+    "start": 60.829,
+    "end": 61.249,
+    "confidence": 0.229,
+    "line_index": 8
+  },
+  {
+    "word": "đơn",
+    "start": 62.615,
+    "end": 63.195,
+    "confidence": 0.194,
+    "line_index": 8
+  },
+  {
+    "word": "Giờ",
+    "start": 63.235,
+    "end": 63.511,
+    "confidence": 0.002,
+    "line_index": 9
+  },
+  {
+    "word": "đây",
+    "start": 63.523,
+    "end": 63.948,
+    "confidence": 0.316,
+    "line_index": 9
+  },
+  {
+    "word": "mất",
+    "start": 63.99,
+    "end": 64.414,
+    "confidence": 0.26,
+    "line_index": 9
+  },
+  {
+    "word": "đi",
+    "start": 64.438,
+    "end": 64.844,
+    "confidence": 0.384,
+    "line_index": 9
+  },
+  {
+    "word": "hai",
+    "start": 64.872,
+    "end": 65.251,
+    "confidence": 0.37,
+    "line_index": 9
+  },
+  {
+    "word": "trái",
+    "start": 65.289,
+    "end": 65.765,
+    "confidence": 0.659,
+    "line_index": 9
+  },
+  {
+    "word": "tim",
+    "start": 65.808,
+    "end": 66.106,
+    "confidence": 0.648,
+    "line_index": 9
+  },
+  {
+    "word": "lẻ",
+    "start": 66.111,
+    "end": 66.446,
+    "confidence": 0.635,
+    "line_index": 9
+  },
+  {
+    "word": "loi",
+    "start": 66.481,
+    "end": 69.92,
+    "confidence": 0.873,
+    "line_index": 9
+  },
+  {
+    "word": "Em",
+    "start": 69.965,
+    "end": 70.065,
+    "confidence": 0.804,
+    "line_index": 10
+  },
+  {
+    "word": "như",
+    "start": 70.071,
+    "end": 70.19,
+    "confidence": 0.787,
+    "line_index": 10
+  },
+  {
+    "word": "không",
+    "start": 70.203,
+    "end": 70.34,
+    "confidence": 0.716,
+    "line_index": 10
+  },
+  {
+    "word": "tin",
+    "start": 70.346,
+    "end": 70.602,
+    "confidence": 0.605,
+    "line_index": 10
+  },
+  {
+    "word": "đôi",
+    "start": 70.607,
+    "end": 70.832,
+    "confidence": 0.659,
+    "line_index": 10
+  },
+  {
+    "word": "mình",
+    "start": 70.834,
+    "end": 71.085,
+    "confidence": 0.368,
+    "line_index": 10
+  },
+  {
+    "word": "yêu",
+    "start": 71.093,
+    "end": 71.263,
+    "confidence": 0.432,
+    "line_index": 10
+  },
+  {
+    "word": "nhau",
+    "start": 71.267,
+    "end": 71.585,
+    "confidence": 0.902,
+    "line_index": 10
+  },
+  {
+    "word": "Lo",
+    "start": 71.663,
+    "end": 71.888,
+    "confidence": 0.963,
+    "line_index": 11
+  },
+  {
+    "word": "yêu",
+    "start": 71.898,
+    "end": 72.131,
+    "confidence": 0,
+    "line_index": 11
+  },
+  {
+    "word": "cho",
+    "start": 72.156,
+    "end": 72.344,
+    "confidence": 0,
+    "line_index": 11
+  },
+  {
+    "word": "lâu",
+    "start": 72.374,
+    "end": 72.582,
+    "confidence": 0,
+    "line_index": 11
+  },
+  {
+    "word": "lại",
+    "start": 72.592,
+    "end": 72.803,
+    "confidence": 0,
+    "line_index": 11
+  },
+  {
+    "word": "thêm",
+    "start": 72.82,
+    "end": 72.992,
+    "confidence": 0,
+    "line_index": 11
+  },
+  {
+    "word": "đau",
+    "start": 72.996,
+    "end": 73.279,
+    "confidence": 0,
+    "line_index": 11
+  },
+  {
+    "word": "Anh",
+    "start": 73.472,
+    "end": 73.576,
+    "confidence": 0.981,
+    "line_index": 12
+  },
+  {
+    "word": "cứ",
+    "start": 73.577,
+    "end": 73.695,
+    "confidence": 0.988,
+    "line_index": 12
+  },
+  {
+    "word": "qua",
+    "start": 73.705,
+    "end": 73.887,
+    "confidence": 0,
+    "line_index": 12
+  },
+  {
+    "word": "chút",
+    "start": 73.918,
+    "end": 74.115,
+    "confidence": 0,
+    "line_index": 12
+  },
+  {
+    "word": "thôi",
+    "start": 74.127,
+    "end": 74.339,
+    "confidence": 0,
+    "line_index": 12
+  },
+  {
+    "word": "mà",
+    "start": 74.341,
+    "end": 74.533,
+    "confidence": 0,
+    "line_index": 12
+  },
+  {
+    "word": "nào",
+    "start": 74.578,
+    "end": 74.759,
+    "confidence": 0,
+    "line_index": 12
+  },
+  {
+    "word": "ngờ",
+    "start": 74.773,
+    "end": 75.201,
+    "confidence": 0,
+    "line_index": 12
+  },
+  {
+    "word": "Từ",
+    "start": 75.244,
+    "end": 75.435,
+    "confidence": 0.995,
+    "line_index": 13
+  },
+  {
+    "word": "người",
+    "start": 75.469,
+    "end": 75.65,
+    "confidence": 0.949,
+    "line_index": 13
+  },
+  {
+    "word": "chua",
+    "start": 75.668,
+    "end": 75.869,
+    "confidence": 0,
+    "line_index": 13
+  },
+  {
+    "word": "ngoa",
+    "start": 75.88,
+    "end": 76.092,
+    "confidence": 0,
+    "line_index": 13
+  },
+  {
+    "word": "thành",
+    "start": 76.1,
+    "end": 76.312,
+    "confidence": 0,
+    "line_index": 13
+  },
+  {
+    "word": "người",
+    "start": 76.314,
+    "end": 76.539,
+    "confidence": 0,
+    "line_index": 13
+  },
+  {
+    "word": "khờ",
+    "start": 76.543,
+    "end": 76.867,
+    "confidence": 0,
+    "line_index": 13
+  },
+  {
+    "word": "Và",
+    "start": 77,
+    "end": 77.189,
+    "confidence": 0.995,
+    "line_index": 14
+  },
+  {
+    "word": "rồi",
+    "start": 77.205,
+    "end": 77.443,
+    "confidence": 0.987,
+    "line_index": 14
+  },
+  {
+    "word": "trong",
+    "start": 77.455,
+    "end": 77.668,
+    "confidence": 0.664,
+    "line_index": 14
+  },
+  {
+    "word": "tim",
+    "start": 77.683,
+    "end": 77.992,
+    "confidence": 0.99,
+    "line_index": 14
+  },
+  {
+    "word": "đập",
+    "start": 78.069,
+    "end": 78.208,
+    "confidence": 0.668,
+    "line_index": 14
+  },
+  {
+    "word": "liên",
+    "start": 78.311,
+    "end": 78.505,
+    "confidence": 0.824,
+    "line_index": 14
+  },
+  {
+    "word": "thanh,",
+    "start": 78.505,
+    "end": 78.968,
+    "confidence": 0.889,
+    "line_index": 14
+  },
+  {
+    "word": "nhịp",
+    "start": 78.982,
+    "end": 79.15,
+    "confidence": 0.696,
+    "line_index": 14
+  },
+  {
+    "word": "không",
+    "start": 79.156,
+    "end": 79.386,
+    "confidence": 0.955,
+    "line_index": 14
+  },
+  {
+    "word": "phanh",
+    "start": 79.394,
+    "end": 80.094,
+    "confidence": 0.985,
+    "line_index": 14
+  },
+  {
+    "word": "Được",
+    "start": 80.1,
+    "end": 80.267,
+    "confidence": 0.753,
+    "line_index": 15
+  },
+  {
+    "word": "chìm",
+    "start": 80.27,
+    "end": 80.492,
+    "confidence": 0.807,
+    "line_index": 15
+  },
+  {
+    "word": "vào",
+    "start": 80.521,
+    "end": 80.742,
+    "confidence": 0.989,
+    "line_index": 15
+  },
+  {
+    "word": "sự",
+    "start": 80.748,
+    "end": 80.932,
+    "confidence": 0.992,
+    "line_index": 15
+  },
+  {
+    "word": "yêu",
+    "start": 80.933,
+    "end": 81.187,
+    "confidence": 0.97,
+    "line_index": 15
+  },
+  {
+    "word": "thương,",
+    "start": 81.223,
+    "end": 81.614,
+    "confidence": 0.717,
+    "line_index": 15
+  },
+  {
+    "word": "sự",
+    "start": 81.637,
+    "end": 81.799,
+    "confidence": 0.744,
+    "line_index": 15
+  },
+  {
+    "word": "quan",
+    "start": 81.801,
+    "end": 82.044,
+    "confidence": 0.847,
+    "line_index": 15
+  },
+  {
+    "word": "tâm",
+    "start": 82.054,
+    "end": 82.444,
+    "confidence": 0.689,
+    "line_index": 15
+  },
+  {
+    "word": "là",
+    "start": 82.448,
+    "end": 82.7,
+    "confidence": 0.269,
+    "line_index": 15
+  },
+  {
+    "word": "thế",
+    "start": 82.708,
+    "end": 83.136,
+    "confidence": 0.774,
+    "line_index": 15
+  },
+  {
+    "word": "sao?",
+    "start": 83.222,
+    "end": 84.369,
+    "confidence": 0.982,
+    "line_index": 15
+  },
+  {
+    "word": "Đã",
+    "start": 84.695,
+    "end": 84.936,
+    "confidence": 0.92,
+    "line_index": 16
+  },
+  {
+    "word": "có",
+    "start": 84.962,
+    "end": 85.164,
+    "confidence": 0,
+    "line_index": 16
+  },
+  {
+    "word": "lúc",
+    "start": 85.205,
+    "end": 85.385,
+    "confidence": 0.997,
+    "line_index": 16
+  },
+  {
+    "word": "sẽ",
+    "start": 85.411,
+    "end": 85.636,
+    "confidence": 0.969,
+    "line_index": 16
+  },
+  {
+    "word": "thôi",
+    "start": 85.65,
+    "end": 86.023,
+    "confidence": 0.777,
+    "line_index": 16
+  },
+  {
+    "word": "không",
+    "start": 86.053,
+    "end": 86.247,
+    "confidence": 0.71,
+    "line_index": 16
+  },
+  {
+    "word": "bận",
+    "start": 86.258,
+    "end": 86.421,
+    "confidence": 0.933,
+    "line_index": 16
+  },
+  {
+    "word": "kiếm",
+    "start": 86.426,
+    "end": 86.882,
+    "confidence": 0.944,
+    "line_index": 16
+  },
+  {
+    "word": "tìm",
+    "start": 86.887,
+    "end": 87.422,
+    "confidence": 0.956,
+    "line_index": 16
+  },
+  {
+    "word": "Ngày",
+    "start": 87.757,
+    "end": 87.948,
+    "confidence": 0.371,
+    "line_index": 17
+  },
+  {
+    "word": "anh",
+    "start": 87.964,
+    "end": 88.185,
+    "confidence": 0.894,
+    "line_index": 17
+  },
+  {
+    "word": "đến",
+    "start": 88.208,
+    "end": 88.439,
+    "confidence": 0.891,
+    "line_index": 17
+  },
+  {
+    "word": "mở",
+    "start": 88.454,
+    "end": 88.663,
+    "confidence": 0.989,
+    "line_index": 17
+  },
+  {
+    "word": "khóa",
+    "start": 88.706,
+    "end": 88.872,
+    "confidence": 0.881,
+    "line_index": 17
+  },
+  {
+    "word": "trái",
+    "start": 88.895,
+    "end": 89.143,
+    "confidence": 0.545,
+    "line_index": 17
+  },
+  {
+    "word": "tim,",
+    "start": 89.159,
+    "end": 89.552,
+    "confidence": 0.982,
+    "line_index": 17
+  },
+  {
+    "word": "chẳng",
+    "start": 89.596,
+    "end": 89.783,
+    "confidence": 0.879,
+    "line_index": 17
+  },
+  {
+    "word": "thể",
+    "start": 89.805,
+    "end": 89.974,
+    "confidence": 0.74,
+    "line_index": 17
+  },
+  {
+    "word": "cố",
+    "start": 90.004,
+    "end": 90.404,
+    "confidence": 0.99,
+    "line_index": 17
+  },
+  {
+    "word": "ghì",
+    "start": 90.436,
+    "end": 90.932,
+    "confidence": 0.957,
+    "line_index": 17
+  },
+  {
+    "word": "Cảm",
+    "start": 90.954,
+    "end": 91.109,
+    "confidence": 0.615,
+    "line_index": 18
+  },
+  {
+    "word": "ơn",
+    "start": 91.115,
+    "end": 91.341,
+    "confidence": 0.694,
+    "line_index": 18
+  },
+  {
+    "word": "vì",
+    "start": 91.345,
+    "end": 91.522,
+    "confidence": 0.848,
+    "line_index": 18
+  },
+  {
+    "word": "đã",
+    "start": 91.548,
+    "end": 91.727,
+    "confidence": 0.998,
+    "line_index": 18
+  },
+  {
+    "word": "đến",
+    "start": 91.754,
+    "end": 92.15,
+    "confidence": 0.989,
+    "line_index": 18
+  },
+  {
+    "word": "bên",
+    "start": 92.195,
+    "end": 92.585,
+    "confidence": 0.986,
+    "line_index": 18
+  },
+  {
+    "word": "và",
+    "start": 92.704,
+    "end": 92.938,
+    "confidence": 0.997,
+    "line_index": 18
+  },
+  {
+    "word": "yêu",
+    "start": 92.99,
+    "end": 93.175,
+    "confidence": 0.967,
+    "line_index": 18
+  },
+  {
+    "word": "em",
+    "start": 93.204,
+    "end": 93.659,
+    "confidence": 0.952,
+    "line_index": 18
+  },
+  {
+    "word": "(uh-woh-oh-oh-uh-woh)",
+    "start": 93.794,
+    "end": 94.467,
+    "confidence": 0.675,
+    "line_index": 18
+  },
+  {
+    "word": "Để",
+    "start": 94.478,
+    "end": 94.637,
+    "confidence": 0.829,
+    "line_index": 19
+  },
+  {
+    "word": "thế",
+    "start": 94.649,
+    "end": 94.826,
+    "confidence": 0.966,
+    "line_index": 19
+  },
+  {
+    "word": "giới",
+    "start": 94.852,
+    "end": 95.098,
+    "confidence": 0.938,
+    "line_index": 19
+  },
+  {
+    "word": "mất",
+    "start": 95.101,
+    "end": 95.339,
+    "confidence": 0.837,
+    "line_index": 19
+  },
+  {
+    "word": "đi",
+    "start": 95.347,
+    "end": 95.646,
+    "confidence": 0.446,
+    "line_index": 19
+  },
+  {
+    "word": "một",
+    "start": 95.754,
+    "end": 96.153,
+    "confidence": 0.995,
+    "line_index": 19
+  },
+  {
+    "word": "người",
+    "start": 96.179,
+    "end": 96.365,
+    "confidence": 0.93,
+    "line_index": 19
+  },
+  {
+    "word": "lẻ",
+    "start": 96.374,
+    "end": 96.763,
+    "confidence": 0.997,
+    "line_index": 19
+  },
+  {
+    "word": "loi",
+    "start": 96.871,
+    "end": 98.186,
+    "confidence": 0.982,
+    "line_index": 19
+  },
+  {
+    "word": "Và",
+    "start": 98.209,
+    "end": 98.563,
+    "confidence": 0.992,
+    "line_index": 20
+  },
+  {
+    "word": "thế",
+    "start": 98.586,
+    "end": 98.859,
+    "confidence": 0.986,
+    "line_index": 20
+  },
+  {
+    "word": "giới",
+    "start": 98.881,
+    "end": 99.265,
+    "confidence": 0.915,
+    "line_index": 20
+  },
+  {
+    "word": "đã",
+    "start": 99.273,
+    "end": 99.703,
+    "confidence": 0.318,
+    "line_index": 20
+  },
+  {
+    "word": "mất",
+    "start": 99.752,
+    "end": 100.2,
+    "confidence": 0,
+    "line_index": 20
+  },
+  {
+    "word": "đi",
+    "start": 100.223,
+    "end": 100.595,
+    "confidence": 0,
+    "line_index": 20
+  },
+  {
+    "word": "một",
+    "start": 100.641,
+    "end": 101.035,
+    "confidence": 0,
+    "line_index": 20
+  },
+  {
+    "word": "người",
+    "start": 101.039,
+    "end": 101.462,
+    "confidence": 0,
+    "line_index": 20
+  },
+  {
+    "word": "cô",
+    "start": 101.463,
+    "end": 101.852,
+    "confidence": 0.259,
+    "line_index": 20
+  },
+  {
+    "word": "đơn",
+    "start": 101.99,
+    "end": 103.85,
+    "confidence": 0.378,
+    "line_index": 20
+  },
+  {
+    "word": "Vì",
+    "start": 105.28,
+    "end": 105.618,
+    "confidence": 0.864,
+    "line_index": 21
+  },
+  {
+    "word": "giờ",
+    "start": 105.637,
+    "end": 105.892,
+    "confidence": 0.99,
+    "line_index": 21
+  },
+  {
+    "word": "đã",
+    "start": 106.007,
+    "end": 106.333,
+    "confidence": 0.941,
+    "line_index": 21
+  },
+  {
+    "word": "có",
+    "start": 106.333,
+    "end": 106.679,
+    "confidence": 0.788,
+    "line_index": 21
+  },
+  {
+    "word": "anh",
+    "start": 106.775,
+    "end": 107.202,
+    "confidence": 0.958,
+    "line_index": 21
+  },
+  {
+    "word": "để",
+    "start": 107.205,
+    "end": 107.593,
+    "confidence": 0.95,
+    "line_index": 21
+  },
+  {
+    "word": "em",
+    "start": 107.715,
+    "end": 108.004,
+    "confidence": 0.98,
+    "line_index": 21
+  },
+  {
+    "word": "được",
+    "start": 108.02,
+    "end": 108.582,
+    "confidence": 0.931,
+    "line_index": 21
+  },
+  {
+    "word": "yêu",
+    "start": 108.616,
+    "end": 109.053,
+    "confidence": 0.905,
+    "line_index": 21
+  },
+  {
+    "word": "thương",
+    "start": 109.168,
+    "end": 110.243,
+    "confidence": 0.256,
+    "line_index": 21
+  },
+  {
+    "word": "nhiều",
+    "start": 110.328,
+    "end": 110.82,
+    "confidence": 0,
+    "line_index": 21
+  },
+  {
+    "word": "hơn",
+    "start": 111.06,
+    "end": 112.255,
+    "confidence": 0.137,
+    "line_index": 21
+  },
+  {
+    "word": "Và",
+    "start": 112.312,
+    "end": 112.631,
+    "confidence": 0.132,
+    "line_index": 22
+  },
+  {
+    "word": "thế",
+    "start": 112.637,
+    "end": 112.91,
+    "confidence": 0.104,
+    "line_index": 22
+  },
+  {
+    "word": "giới",
+    "start": 112.923,
+    "end": 113.37,
+    "confidence": 0.354,
+    "line_index": 22
+  },
+  {
+    "word": "đã",
+    "start": 113.378,
+    "end": 113.752,
+    "confidence": 0.289,
+    "line_index": 22
+  },
+  {
+    "word": "mất",
+    "start": 113.863,
+    "end": 114.129,
+    "confidence": 0.381,
+    "line_index": 22
+  },
+  {
+    "word": "đi",
+    "start": 114.144,
+    "end": 114.404,
+    "confidence": 0.502,
+    "line_index": 22
+  },
+  {
+    "word": "một",
+    "start": 114.418,
+    "end": 114.649,
+    "confidence": 0.574,
+    "line_index": 22
+  },
+  {
+    "word": "người",
+    "start": 114.686,
+    "end": 115.491,
+    "confidence": 0.406,
+    "line_index": 22
+  },
+  {
+    "word": "cô",
+    "start": 115.506,
+    "end": 115.882,
+    "confidence": 0.702,
+    "line_index": 22
+  },
+  {
+    "word": "đơn,",
+    "start": 115.948,
+    "end": 117.302,
+    "confidence": 0.55,
+    "line_index": 22
+  },
+  {
+    "word": "cô",
+    "start": 117.313,
+    "end": 117.713,
+    "confidence": 0.386,
+    "line_index": 22
+  },
+  {
+    "word": "đơn",
+    "start": 118.044,
+    "end": 118.874,
+    "confidence": 0.432,
+    "line_index": 22
+  },
+  {
+    "word": "Giờ",
+    "start": 119.75,
+    "end": 119.999,
+    "confidence": 0.337,
+    "line_index": 23
+  },
+  {
+    "word": "đây",
+    "start": 120.021,
+    "end": 120.393,
+    "confidence": 0,
+    "line_index": 23
+  },
+  {
+    "word": "mất",
+    "start": 120.411,
+    "end": 120.894,
+    "confidence": 0,
+    "line_index": 23
+  },
+  {
+    "word": "đi",
+    "start": 120.896,
+    "end": 121.329,
+    "confidence": 0,
+    "line_index": 23
+  },
+  {
+    "word": "hai",
+    "start": 121.36,
+    "end": 121.743,
+    "confidence": 0.478,
+    "line_index": 23
+  },
+  {
+    "word": "trái",
+    "start": 121.797,
+    "end": 122.229,
+    "confidence": 0.765,
+    "line_index": 23
+  },
+  {
+    "word": "tim",
+    "start": 122.253,
+    "end": 122.704,
+    "confidence": 0.538,
+    "line_index": 23
+  },
+  {
+    "word": "lẻ",
+    "start": 122.845,
+    "end": 123.213,
+    "confidence": 0.588,
+    "line_index": 23
+  },
+  {
+    "word": "loi",
+    "start": 124.973,
+    "end": 126.577,
+    "confidence": 0.446,
+    "line_index": 23
+  },
+  {
+    "word": "Đã",
+    "start": 127.029,
+    "end": 127.223,
+    "confidence": 0,
+    "line_index": 24
+  },
+  {
+    "word": "có",
+    "start": 127.224,
+    "end": 127.36,
+    "confidence": 0.599,
+    "line_index": 24
+  },
+  {
+    "word": "những",
+    "start": 127.361,
+    "end": 127.504,
+    "confidence": 0.433,
+    "line_index": 24
+  },
+  {
+    "word": "lúc",
+    "start": 127.506,
+    "end": 127.621,
+    "confidence": 0.493,
+    "line_index": 24
+  },
+  {
+    "word": "cô",
+    "start": 127.626,
+    "end": 127.785,
+    "confidence": 0.394,
+    "line_index": 24
+  },
+  {
+    "word": "đơn,",
+    "start": 127.812,
+    "end": 128.071,
+    "confidence": 0.304,
+    "line_index": 24
+  },
+  {
+    "word": "một",
+    "start": 128.077,
+    "end": 128.157,
+    "confidence": 0.46,
+    "line_index": 24
+  },
+  {
+    "word": "mình",
+    "start": 128.157,
+    "end": 128.413,
+    "confidence": 0.374,
+    "line_index": 24
+  },
+  {
+    "word": "lang",
+    "start": 128.419,
+    "end": 128.652,
+    "confidence": 0.72,
+    "line_index": 24
+  },
+  {
+    "word": "thang",
+    "start": 128.657,
+    "end": 129.143,
+    "confidence": 0.908,
+    "line_index": 24
+  },
+  {
+    "word": "giữa",
+    "start": 129.145,
+    "end": 129.387,
+    "confidence": 0.905,
+    "line_index": 24
+  },
+  {
+    "word": "bao",
+    "start": 129.422,
+    "end": 129.684,
+    "confidence": 0.793,
+    "line_index": 24
+  },
+  {
+    "word": "vô",
+    "start": 129.69,
+    "end": 130.001,
+    "confidence": 0.678,
+    "line_index": 24
+  },
+  {
+    "word": "tình",
+    "start": 130.018,
+    "end": 130.338,
+    "confidence": 0.546,
+    "line_index": 24
+  },
+  {
+    "word": "Đã",
+    "start": 133.649,
+    "end": 133.649,
+    "confidence": 0.572,
+    "line_index": 25
+  },
+  {
+    "word": "có",
+    "start": 133.649,
+    "end": 133.649,
+    "confidence": 0.559,
+    "line_index": 25
+  },
+  {
+    "word": "những",
+    "start": 133.649,
+    "end": 133.649,
+    "confidence": 0.629,
+    "line_index": 25
+  },
+  {
+    "word": "lúc",
+    "start": 134.529,
+    "end": 134.874,
+    "confidence": 0.253,
+    "line_index": 25
+  },
+  {
+    "word": "quên",
+    "start": 134.879,
+    "end": 135.399,
+    "confidence": 0.975,
+    "line_index": 25
+  },
+  {
+    "word": "đi",
+    "start": 135.48,
+    "end": 135.639,
+    "confidence": 0.97,
+    "line_index": 25
+  },
+  {
+    "word": "làm",
+    "start": 135.66,
+    "end": 136.09,
+    "confidence": 0.814,
+    "line_index": 25
+  },
+  {
+    "word": "sao",
+    "start": 136.219,
+    "end": 136.57,
+    "confidence": 0.902,
+    "line_index": 25
+  },
+  {
+    "word": "để",
+    "start": 136.605,
+    "end": 136.94,
+    "confidence": 0.945,
+    "line_index": 25
+  },
+  {
+    "word": "hai",
+    "start": 136.969,
+    "end": 137.65,
+    "confidence": 0.925,
+    "line_index": 25
+  },
+  {
+    "word": "người",
+    "start": 137.675,
+    "end": 138.13,
+    "confidence": 0.695,
+    "line_index": 25
+  },
+  {
+    "word": "xa",
+    "start": 138.13,
+    "end": 138.31,
+    "confidence": 0.81,
+    "line_index": 25
+  },
+  {
+    "word": "lạ",
+    "start": 138.45,
+    "end": 138.6,
+    "confidence": 0.744,
+    "line_index": 25
+  },
+  {
+    "word": "đến",
+    "start": 138.81,
+    "end": 139.149,
+    "confidence": 0.933,
+    "line_index": 25
+  },
+  {
+    "word": "bên",
+    "start": 139.35,
+    "end": 139.93,
+    "confidence": 0.995,
+    "line_index": 25
+  },
+  {
+    "word": "nhau",
+    "start": 140.024,
+    "end": 140.7,
+    "confidence": 0.572,
+    "line_index": 25
+  },
+  {
+    "word": "Quên",
+    "start": 141.172,
+    "end": 141.22,
+    "confidence": 0.792,
+    "line_index": 26
+  },
+  {
+    "word": "cách",
+    "start": 141.422,
+    "end": 141.69,
+    "confidence": 0.85,
+    "line_index": 26
+  },
+  {
+    "word": "nắm",
+    "start": 141.776,
+    "end": 141.95,
+    "confidence": 0.932,
+    "line_index": 26
+  },
+  {
+    "word": "đôi",
+    "start": 142.076,
+    "end": 142.37,
+    "confidence": 0.976,
+    "line_index": 26
+  },
+  {
+    "word": "bàn",
+    "start": 142.456,
+    "end": 142.67,
+    "confidence": 0.994,
+    "line_index": 26
+  },
+  {
+    "word": "tay",
+    "start": 142.706,
+    "end": 142.81,
+    "confidence": 0.827,
+    "line_index": 26
+  },
+  {
+    "word": "Và",
+    "start": 144.382,
+    "end": 144.382,
+    "confidence": 0.98,
+    "line_index": 27
+  },
+  {
+    "word": "quên",
+    "start": 144.512,
+    "end": 144.79,
+    "confidence": 0.92,
+    "line_index": 27
+  },
+  {
+    "word": "cách",
+    "start": 144.972,
+    "end": 145.21,
+    "confidence": 0.998,
+    "line_index": 27
+  },
+  {
+    "word": "nhớ",
+    "start": 145.296,
+    "end": 145.506,
+    "confidence": 0.978,
+    "line_index": 27
+  },
+  {
+    "word": "thương",
+    "start": 145.55,
+    "end": 146.001,
+    "confidence": 0.941,
+    "line_index": 27
+  },
+  {
+    "word": "một",
+    "start": 146.03,
+    "end": 146.151,
+    "confidence": 0.969,
+    "line_index": 27
+  },
+  {
+    "word": "ai",
+    "start": 146.16,
+    "end": 146.45,
+    "confidence": 0.989,
+    "line_index": 27
+  },
+  {
+    "word": "Và",
+    "start": 147.545,
+    "end": 147.545,
+    "confidence": 0.929,
+    "line_index": 28
+  },
+  {
+    "word": "rồi",
+    "start": 147.645,
+    "end": 147.8,
+    "confidence": 0.254,
+    "line_index": 28
+  },
+  {
+    "word": "anh",
+    "start": 147.96,
+    "end": 148.11,
+    "confidence": 0.977,
+    "line_index": 28
+  },
+  {
+    "word": "đã",
+    "start": 148.168,
+    "end": 148.33,
+    "confidence": 0.88,
+    "line_index": 28
+  },
+  {
+    "word": "đến",
+    "start": 148.463,
+    "end": 148.85,
+    "confidence": 0.837,
+    "line_index": 28
+  },
+  {
+    "word": "ôm",
+    "start": 148.938,
+    "end": 149.22,
+    "confidence": 0.873,
+    "line_index": 28
+  },
+  {
+    "word": "lấy",
+    "start": 149.385,
+    "end": 149.62,
+    "confidence": 0.961,
+    "line_index": 28
+  },
+  {
+    "word": "trái",
+    "start": 149.688,
+    "end": 150.11,
+    "confidence": 0.84,
+    "line_index": 28
+  },
+  {
+    "word": "tim",
+    "start": 150.265,
+    "end": 150.44,
+    "confidence": 0.93,
+    "line_index": 28
+  },
+  {
+    "word": "đơn",
+    "start": 150.59,
+    "end": 150.74,
+    "confidence": 0.701,
+    "line_index": 28
+  },
+  {
+    "word": "côi",
+    "start": 150.808,
+    "end": 150.876,
+    "confidence": 0.964,
+    "line_index": 28
+  },
+  {
+    "word": "Và",
+    "start": 154.617,
+    "end": 154.617,
+    "confidence": 0.869,
+    "line_index": 29
+  },
+  {
+    "word": "thế",
+    "start": 154.617,
+    "end": 154.617,
+    "confidence": 0.883,
+    "line_index": 29
+  },
+  {
+    "word": "giới",
+    "start": 154.617,
+    "end": 154.617,
+    "confidence": 0.763,
+    "line_index": 29
+  },
+  {
+    "word": "đã",
+    "start": 154.617,
+    "end": 154.617,
+    "confidence": 0.842,
+    "line_index": 29
+  },
+  {
+    "word": "mất",
+    "start": 154.617,
+    "end": 154.617,
+    "confidence": 0.992,
+    "line_index": 29
+  },
+  {
+    "word": "đi",
+    "start": 154.617,
+    "end": 154.617,
+    "confidence": 0.992,
+    "line_index": 29
+  },
+  {
+    "word": "một",
+    "start": 154.617,
+    "end": 154.617,
+    "confidence": 0.989,
+    "line_index": 29
+  },
+  {
+    "word": "người",
+    "start": 154.685,
+    "end": 154.754,
+    "confidence": 0.83,
+    "line_index": 29
+  },
+  {
+    "word": "cô",
+    "start": 154.882,
+    "end": 155.011,
+    "confidence": 0.978,
+    "line_index": 29
+  },
+  {
+    "word": "đơn",
+    "start": 155.137,
+    "end": 155.264,
+    "confidence": 0.578,
+    "line_index": 29
+  },
+  {
+    "word": "(mất",
+    "start": 155.361,
+    "end": 155.458,
+    "confidence": 0.714,
+    "line_index": 29
+  },
+  {
+    "word": "đi",
+    "start": 155.521,
+    "end": 155.584,
+    "confidence": 0.721,
+    "line_index": 29
+  },
+  {
+    "word": "một",
+    "start": 156.542,
+    "end": 156.692,
+    "confidence": 0.948,
+    "line_index": 29
+  },
+  {
+    "word": "người",
+    "start": 157.435,
+    "end": 157.585,
+    "confidence": 0.761,
+    "line_index": 29
+  },
+  {
+    "word": "cô",
+    "start": 157.659,
+    "end": 157.733,
+    "confidence": 0.928,
+    "line_index": 29
+  },
+  {
+    "word": "đơn)",
+    "start": 157.798,
+    "end": 157.864,
+    "confidence": 0.836,
+    "line_index": 29
+  },
+  {
+    "word": "Vì",
+    "start": 161.946,
+    "end": 161.946,
+    "confidence": 0.698,
+    "line_index": 30
+  },
+  {
+    "word": "giờ",
+    "start": 161.946,
+    "end": 161.946,
+    "confidence": 0.957,
+    "line_index": 30
+  },
+  {
+    "word": "đã",
+    "start": 161.946,
+    "end": 161.946,
+    "confidence": 0.824,
+    "line_index": 30
+  },
+  {
+    "word": "có",
+    "start": 161.946,
+    "end": 161.946,
+    "confidence": 0.802,
+    "line_index": 30
+  },
+  {
+    "word": "anh",
+    "start": 161.946,
+    "end": 161.946,
+    "confidence": 0.765,
+    "line_index": 30
+  },
+  {
+    "word": "để",
+    "start": 161.946,
+    "end": 161.946,
+    "confidence": 0.956,
+    "line_index": 30
+  },
+  {
+    "word": "em",
+    "start": 161.946,
+    "end": 161.946,
+    "confidence": 0.946,
+    "line_index": 30
+  },
+  {
+    "word": "được",
+    "start": 161.946,
+    "end": 161.946,
+    "confidence": 0.914,
+    "line_index": 30
+  },
+  {
+    "word": "yêu",
+    "start": 164.874,
+    "end": 165.024,
+    "confidence": 0.828,
+    "line_index": 30
+  },
+  {
+    "word": "thương",
+    "start": 165.216,
+    "end": 165.92,
+    "confidence": 0.342,
+    "line_index": 30
+  },
+  {
+    "word": "nhiều",
+    "start": 166.486,
+    "end": 166.89,
+    "confidence": 0.712,
+    "line_index": 30
+  },
+  {
+    "word": "hơn",
+    "start": 167.023,
+    "end": 167.277,
+    "confidence": 0.611,
+    "line_index": 30
+  },
+  {
+    "word": "(mất",
+    "start": 167.421,
+    "end": 167.712,
+    "confidence": 0.879,
+    "line_index": 30
+  },
+  {
+    "word": "đi",
+    "start": 167.777,
+    "end": 167.92,
+    "confidence": 0.817,
+    "line_index": 30
+  },
+  {
+    "word": "một",
+    "start": 168.035,
+    "end": 168.228,
+    "confidence": 0.842,
+    "line_index": 30
+  },
+  {
+    "word": "người)",
+    "start": 168.26,
+    "end": 168.946,
+    "confidence": 0.687,
+    "line_index": 30
+  },
+  {
+    "word": "Và",
+    "start": 169.308,
+    "end": 169.695,
+    "confidence": 0.149,
+    "line_index": 31
+  },
+  {
+    "word": "thế",
+    "start": 169.732,
+    "end": 169.964,
+    "confidence": 0.249,
+    "line_index": 31
+  },
+  {
+    "word": "giới",
+    "start": 170.08,
+    "end": 170.777,
+    "confidence": 0.231,
+    "line_index": 31
+  },
+  {
+    "word": "đã",
+    "start": 170.866,
+    "end": 171.016,
+    "confidence": 0.152,
+    "line_index": 31
+  },
+  {
+    "word": "mất",
+    "start": 171.218,
+    "end": 171.312,
+    "confidence": 0,
+    "line_index": 31
+  },
+  {
+    "word": "đi",
+    "start": 171.406,
+    "end": 171.464,
+    "confidence": 0,
+    "line_index": 31
+  },
+  {
+    "word": "một",
+    "start": 171.522,
+    "end": 171.672,
+    "confidence": 0.343,
+    "line_index": 31
+  },
+  {
+    "word": "người",
+    "start": 172.008,
+    "end": 172.158,
+    "confidence": 0.413,
+    "line_index": 31
+  },
+  {
+    "word": "cô",
+    "start": 172.546,
+    "end": 172.696,
+    "confidence": 0.338,
+    "line_index": 31
+  },
+  {
+    "word": "đơn,",
+    "start": 172.868,
+    "end": 173.623,
+    "confidence": 0.884,
+    "line_index": 31
+  },
+  {
+    "word": "cô",
+    "start": 173.681,
+    "end": 173.74,
+    "confidence": 0.9,
+    "line_index": 31
+  },
+  {
+    "word": "đơn",
+    "start": 174.01,
+    "end": 174.16,
+    "confidence": 0.898,
+    "line_index": 31
+  },
+  {
+    "word": "Giờ",
+    "start": 176.174,
+    "end": 176.174,
+    "confidence": 0.915,
+    "line_index": 32
+  },
+  {
+    "word": "đây",
+    "start": 176.174,
+    "end": 176.174,
+    "confidence": 0.856,
+    "line_index": 32
+  },
+  {
+    "word": "mất",
+    "start": 176.174,
+    "end": 176.174,
+    "confidence": 0.311,
+    "line_index": 32
+  },
+  {
+    "word": "đi",
+    "start": 176.174,
+    "end": 176.174,
+    "confidence": 0.439,
+    "line_index": 32
+  },
+  {
+    "word": "hai",
+    "start": 176.282,
+    "end": 176.39,
+    "confidence": 0.523,
+    "line_index": 32
+  },
+  {
+    "word": "trái",
+    "start": 176.92,
+    "end": 177.07,
+    "confidence": 0.751,
+    "line_index": 32
+  },
+  {
+    "word": "tim",
+    "start": 177.27,
+    "end": 177.42,
+    "confidence": 0.509,
+    "line_index": 32
+  },
+  {
+    "word": "lẻ",
+    "start": 177.54,
+    "end": 177.66,
+    "confidence": 0.7,
+    "line_index": 32
+  },
+  {
+    "word": "loi,",
+    "start": 177.74,
+    "end": 177.82,
+    "confidence": 0,
+    "line_index": 32
+  },
+  {
+    "word": "huh-huh-huh-uh-huh",
+    "start": 179.26,
+    "end": 179.41,
+    "confidence": 0,
+    "line_index": 32
+  },
+  {
+    "word": "Giờ",
+    "start": 184.976,
+    "end": 184.976,
+    "confidence": 0.044,
+    "line_index": 33
+  },
+  {
+    "word": "đây",
+    "start": 184.976,
+    "end": 184.976,
+    "confidence": 0.616,
+    "line_index": 33
+  },
+  {
+    "word": "mất",
+    "start": 184.976,
+    "end": 184.976,
+    "confidence": 0.529,
+    "line_index": 33
+  },
+  {
+    "word": "đi",
+    "start": 184.976,
+    "end": 184.976,
+    "confidence": 0.367,
+    "line_index": 33
+  },
+  {
+    "word": "hai",
+    "start": 184.976,
+    "end": 184.976,
+    "confidence": 0.699,
+    "line_index": 33
+  },
+  {
+    "word": "trái",
+    "start": 184.976,
+    "end": 184.976,
+    "confidence": 0.547,
+    "line_index": 33
+  },
+  {
+    "word": "tim",
+    "start": 184.976,
+    "end": 184.976,
+    "confidence": 0.637,
+    "line_index": 33
+  },
+  {
+    "word": "lẻ",
+    "start": 184.976,
+    "end": 184.976,
+    "confidence": 0.465,
+    "line_index": 33
+  },
+  {
+    "word": "loi",
+    "start": 184.977,
+    "end": 184.976,
+    "confidence": 0.543,
+    "line_index": 33
+  }
+]

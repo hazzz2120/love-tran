@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lyric Universe</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <main id="app" class="app">
+
+    <!-- BACKGROUND -->
+    <div class="nebula nebula-a"></div>
+    <div class="nebula nebula-b"></div>
+    <div class="nebula nebula-c"></div>
+    <div class="nebula nebula-d"></div>
+
+    <div id="stars" class="stars"></div>
+    <div id="particles" class="particles"></div>
+    <div class="shooting-stars"></div>
+
+    <div class="vignette"></div>
+
+    <!-- =========================
+         PASSWORD SCREEN
+    ========================== -->
+    <section id="passwordScreen" class="password-screen">
+
+      <div class="password-card">
+
+        <div class="lock-icon">
+          🔒
+        </div>
+
+        <div class="password-eyebrow">
+          PRIVATE LYRIC
+        </div>
+
+        <h1 class="password-title">
+          Một điều nhỏ dành riêng cho bạn
+        </h1>
+
+        <p id="passwordHint" class="password-hint">
+          <!-- JS sẽ đưa gợi ý vào đây -->
+        </p>
+
+        <div class="password-box">
+          <input
+            id="passwordInput"
+            type="password"
+            placeholder="Nhập mật khẩu..."
+            autocomplete="off"
+            spellcheck="false"
+          />
+
+          <button id="passwordToggle" type="button" aria-label="Hiện mật khẩu">
+            👁
+          </button>
+        </div>
+
+        <button id="unlockButton" class="unlock-button" type="button">
+          MỞ KHÓA
+        </button>
+
+        <div id="passwordError" class="password-error"></div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         WELCOME SCREEN
+    ========================== -->
+    <section id="welcome" class="welcome hidden-screen">
+
+      <div class="eyebrow">
+        LYRIC UNIVERSE
+      </div>
+
+      <h1>
+        Và Thế Giới Đã Mất Đi Một Người Cô Đơn
+      </h1>
+
+      <p>
+        Một bài hát, một khoảng trời, một người.
+      </p>
+
+      <button id="startButton" class="start-button" type="button">
+        <span class="start-icon">▶</span>
+        <span>BẮT ĐẦU</span>
+      </button>
+
+      <div id="status" class="status"></div>
+
+    </section>
+
+
+    <!-- =========================
+         LYRIC
+    ========================== -->
+    <section id="lyricStage" class="lyric-stage">
+
+      <div class="line-glow"></div>
+
+      <div id="lineText" class="line-text"></div>
+
+    </section>
+
+    <!-- =========================
+         COUNTDOWN
+    ========================== -->
+    <section id="countdown" class="countdown" aria-hidden="true">
+
+      <div class="countdown-label">
+        Một chút nữa...
+      </div>
+
+      <div id="countdownNumber" class="countdown-number">
+        5
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         SPECIAL MESSAGE
+    ========================== -->
+    <section id="special" class="special">
+
+      <div id="heartParticles" class="heart-particles"></div>
+
+      <div class="heart-wrap">
+
+        <div class="heart-glow"></div>
+
+        <div class="heart">
+          ♥
+        </div>
+
+      </div>
+
+      <div class="special-name">
+        Trân
+      </div>
+
+      <div class="special-subtitle">
+        <!-- Có thể sửa dòng này -->
+      </div>
+
+    </section>
+
+    <!-- =========================
+         RESTART
+    ========================== -->
+    <button
+      id="restartButton"
+      class="restart-button"
+      type="button"
+      hidden
+    >
+      ↻ Phát lại
+    </button>
+
+
+    <!-- AUDIO SOURCE -->
+    <video
+      id="media"
+      playsinline
+      preload="auto"
+    >
+      <source src="./song.mp4" type="video/mp4">
+    </video>
+
+  </main>
+
+  <script src="./app.js" defer></script>
+
+</body>
+</html>

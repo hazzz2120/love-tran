@@ -1,0 +1,1612 @@
+:root {
+  --bg: #03040d;
+  --text: #ffffff;
+  --muted: #bfc2db;
+
+  --purple: #9d7bff;
+  --blue: #58d8ff;
+  --pink: #ff63d8;
+  --cyan: #56ffe0;
+  --red: #ff4f91;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #03040d;
+  color: white;
+  font-family:
+    "Segoe UI",
+    "SF Pro Display",
+    Inter,
+    system-ui,
+    sans-serif;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
+.app {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  isolation: isolate;
+
+  background:
+    radial-gradient(
+      circle at 50% 20%,
+      rgba(125, 94, 255, 0.13),
+      transparent 34%
+    ),
+    radial-gradient(
+      circle at 12% 80%,
+      rgba(30, 210, 255, 0.10),
+      transparent 28%
+    ),
+    radial-gradient(
+      circle at 88% 72%,
+      rgba(255, 65, 204, 0.11),
+      transparent 28%
+    ),
+    #03040d;
+}
+
+
+/* =========================================================
+   NEBULA
+========================================================= */
+
+.nebula {
+  position: absolute;
+  width: 48vw;
+  height: 48vw;
+
+  min-width: 420px;
+  min-height: 420px;
+
+  border-radius: 50%;
+
+  filter: blur(90px);
+
+  opacity: 0.3;
+
+  mix-blend-mode: screen;
+
+  pointer-events: none;
+
+  animation:
+    nebulaDrift 22s ease-in-out infinite alternate;
+}
+
+.nebula-a {
+  top: -18vh;
+  left: -12vw;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(135, 94, 255, 0.8),
+      rgba(78, 38, 255, 0.3) 48%,
+      transparent 74%
+    );
+}
+
+.nebula-b {
+  top: 4vh;
+  right: -17vw;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(32, 205, 255, 0.75),
+      rgba(45, 80, 255, 0.28) 48%,
+      transparent 74%
+    );
+
+  animation-delay: -6s;
+}
+
+.nebula-c {
+  left: 20vw;
+  bottom: -25vh;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(255, 60, 202, 0.72),
+      rgba(255, 72, 125, 0.24) 45%,
+      transparent 72%
+    );
+
+  animation-delay: -12s;
+}
+
+.nebula-d {
+  left: 45vw;
+  top: 28vh;
+
+  width: 35vw;
+  height: 35vw;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(73, 255, 226, 0.2),
+      rgba(86, 83, 255, 0.1) 50%,
+      transparent 73%
+    );
+
+  animation-delay: -18s;
+}
+
+@keyframes nebulaDrift {
+
+  from {
+    transform:
+      translate3d(-2%, -2%, 0)
+      scale(1);
+  }
+
+  to {
+    transform:
+      translate3d(4%, 3%, 0)
+      scale(1.12);
+  }
+}
+
+
+/* =========================================================
+   STARS
+========================================================= */
+
+.stars,
+.particles,
+.shooting-stars {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.star {
+  position: absolute;
+
+  border-radius: 50%;
+
+  background: white;
+
+  box-shadow:
+    0 0 5px rgba(255,255,255,0.8),
+    0 0 12px rgba(255,255,255,0.45);
+
+  animation:
+    twinkle var(--dur) ease-in-out infinite alternate;
+}
+
+@keyframes twinkle {
+
+  from {
+    opacity: 0.12;
+    transform: scale(0.65);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1.45);
+  }
+}
+
+
+/* =========================================================
+   PARTICLES
+========================================================= */
+
+.particle {
+  position: absolute;
+
+  border-radius: 50%;
+
+  opacity: 0.4;
+
+  box-shadow:
+    0 0 12px currentColor,
+    0 0 24px currentColor;
+
+  animation:
+    particleFloat var(--dur) linear infinite;
+}
+
+@keyframes particleFloat {
+
+  from {
+    transform:
+      translate3d(0, 15vh, 0)
+      scale(0.7);
+
+    opacity: 0;
+  }
+
+  15% {
+    opacity: 0.7;
+  }
+
+  80% {
+    opacity: 0.4;
+  }
+
+  to {
+    transform:
+      translate3d(var(--dx), -115vh, 0)
+      scale(1.15);
+
+    opacity: 0;
+  }
+}
+
+
+/* =========================================================
+   SHOOTING STAR
+========================================================= */
+
+.shooting-stars::before,
+.shooting-stars::after {
+
+  content: "";
+
+  position: absolute;
+
+  width: 160px;
+  height: 2px;
+
+  border-radius: 999px;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(255,255,255,0.9),
+      transparent
+    );
+
+  box-shadow:
+    0 0 12px rgba(255,255,255,0.8);
+
+  transform: rotate(-30deg);
+
+  opacity: 0;
+
+  animation:
+    shooting 11s linear infinite;
+}
+
+.shooting-stars::before {
+  top: 24%;
+  left: -200px;
+}
+
+.shooting-stars::after {
+  top: 54%;
+  left: -250px;
+  animation-delay: 5.3s;
+}
+
+@keyframes shooting {
+
+  0% {
+    transform:
+      translate3d(0,0,0)
+      rotate(-30deg);
+
+    opacity: 0;
+  }
+
+  4% {
+    opacity: 0.9;
+  }
+
+  16% {
+    transform:
+      translate3d(125vw,40vh,0)
+      rotate(-30deg);
+
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+
+/* =========================================================
+   VIGNETTE
+========================================================= */
+
+.vignette {
+
+  position: absolute;
+
+  inset: 0;
+
+  background:
+    radial-gradient(
+      circle at center,
+      transparent 40%,
+      rgba(0,0,0,0.6) 100%
+    );
+
+  pointer-events: none;
+}
+
+
+/* =========================================================
+   PASSWORD SCREEN
+========================================================= */
+
+.password-screen {
+
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 30;
+
+  display: grid;
+
+  place-items: center;
+
+  padding: 24px;
+
+  transition:
+    opacity 0.8s ease,
+    visibility 0.8s ease;
+}
+
+.password-screen.hidden {
+
+  opacity: 0;
+
+  visibility: hidden;
+
+  pointer-events: none;
+}
+
+.password-card {
+
+  position: relative;
+
+  width: min(92vw, 500px);
+
+  padding:
+    38px
+    32px
+    32px;
+
+  text-align: center;
+
+  border:
+    1px solid
+    rgba(255,255,255,0.14);
+
+  border-radius: 28px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,0.09),
+      rgba(255,255,255,0.035)
+    );
+
+  backdrop-filter: blur(25px);
+
+  box-shadow:
+    0 35px 100px rgba(0,0,0,0.35),
+    inset 0 0 45px rgba(255,255,255,0.025);
+
+  animation:
+    passwordCardIn 1s
+    cubic-bezier(.2,.8,.2,1);
+}
+
+@keyframes passwordCardIn {
+
+  from {
+    opacity: 0;
+    transform:
+      translateY(30px)
+      scale(.94);
+  }
+
+  to {
+    opacity: 1;
+    transform:
+      translateY(0)
+      scale(1);
+  }
+}
+
+.lock-icon {
+
+  width: 74px;
+  height: 74px;
+
+  margin:
+    0 auto
+    18px;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 50%;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(160,125,255,0.24),
+      rgba(80,80,255,0.06)
+    );
+
+  box-shadow:
+    0 0 30px rgba(130,100,255,0.25);
+
+  font-size: 32px;
+}
+
+.password-eyebrow {
+
+  font-size: 11px;
+
+  letter-spacing: .38em;
+
+  margin-left: .38em;
+
+  color:
+    rgba(255,255,255,.65);
+}
+
+.password-title {
+
+  margin:
+    14px 0
+    10px;
+
+  font-size:
+    clamp(
+      1.6rem,
+      4vw,
+      2.5rem
+    );
+
+  line-height: 1.12;
+
+  font-weight: 800;
+
+  background:
+    linear-gradient(
+      90deg,
+      #fff,
+      #cac5ff,
+      #ffd3f3,
+      #fff
+    );
+
+  background-size: 220% auto;
+
+  -webkit-background-clip: text;
+
+  color: transparent;
+
+  animation:
+    titleMove 7s linear infinite;
+}
+
+@keyframes titleMove {
+
+  from {
+    background-position: 0% center;
+  }
+
+  to {
+    background-position: 220% center;
+  }
+}
+
+.password-hint {
+
+  margin:
+    0 auto
+    24px;
+
+  max-width: 380px;
+
+  color:
+    var(--muted);
+
+  font-size: .95rem;
+
+  line-height: 1.55;
+}
+
+.password-box {
+
+  position: relative;
+
+  width: 100%;
+}
+
+.password-box input {
+
+  width: 100%;
+
+  height: 58px;
+
+  padding:
+    0 58px
+    0 18px;
+
+  border:
+    1px solid
+    rgba(255,255,255,.14);
+
+  border-radius: 16px;
+
+  outline: none;
+
+  background:
+    rgba(0,0,0,.2);
+
+  color: white;
+
+  font-size: 16px;
+
+  transition:
+    border .2s ease,
+    box-shadow .2s ease,
+    background .2s ease;
+}
+
+.password-box input::placeholder {
+  color:
+    rgba(255,255,255,.38);
+}
+
+.password-box input:focus {
+
+  border-color:
+    rgba(177,145,255,.6);
+
+  background:
+    rgba(0,0,0,.28);
+
+  box-shadow:
+    0 0 0 4px
+    rgba(140,115,255,.08);
+}
+
+.password-box button {
+
+  position: absolute;
+
+  top: 50%;
+  right: 10px;
+
+  transform: translateY(-50%);
+
+  width: 38px;
+  height: 38px;
+
+  border: 0;
+
+  border-radius: 10px;
+
+  background:
+    rgba(255,255,255,.07);
+
+  color: white;
+
+  cursor: pointer;
+}
+
+.unlock-button {
+
+  width: 100%;
+
+  height: 56px;
+
+  margin-top: 14px;
+
+  border: 0;
+
+  border-radius: 16px;
+
+  cursor: pointer;
+
+  color: white;
+
+  font-weight: 800;
+
+  font-size: 15px;
+
+  letter-spacing: .08em;
+
+  background:
+    linear-gradient(
+      120deg,
+      rgba(117,84,255,.9),
+      rgba(217,81,210,.82),
+      rgba(73,195,255,.85)
+    );
+
+  background-size: 200% 200%;
+
+  box-shadow:
+    0 18px 42px
+    rgba(108,83,255,.22);
+
+  animation:
+    buttonGradient 7s ease infinite;
+
+  transition:
+    transform .2s ease,
+    box-shadow .2s ease;
+}
+
+.unlock-button:hover {
+
+  transform:
+    translateY(-2px)
+    scale(1.01);
+
+  box-shadow:
+    0 22px 52px
+    rgba(108,83,255,.3);
+}
+
+@keyframes buttonGradient {
+
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.password-error {
+
+  min-height: 22px;
+
+  margin-top: 12px;
+
+  color:
+    #ff9fc8;
+
+  font-size: .9rem;
+}
+
+
+/* =========================================================
+   WELCOME
+========================================================= */
+
+.welcome {
+
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 20;
+
+  display: grid;
+
+  place-items: center;
+
+  align-content: center;
+
+  padding: 32px;
+
+  text-align: center;
+
+  opacity: 1;
+
+  transition:
+    opacity .8s ease,
+    transform .8s ease;
+}
+
+.welcome.hidden-screen {
+
+  opacity: 0;
+
+  transform:
+    scale(1.03);
+
+  pointer-events: none;
+}
+
+.eyebrow {
+
+  font-size: 11px;
+
+  letter-spacing: .44em;
+
+  margin-left: .44em;
+
+  color:
+    rgba(255,255,255,.62);
+}
+
+.welcome h1 {
+
+  width: min(90vw, 900px);
+
+  margin:
+    16px auto
+    12px;
+
+  font-size:
+    clamp(
+      2rem,
+      5vw,
+      4.8rem
+    );
+
+  line-height: 1.06;
+
+  font-weight: 800;
+
+  background:
+    linear-gradient(
+      90deg,
+      #fff,
+      #c3c0ff 38%,
+      #ffd2f4 70%,
+      #fff
+    );
+
+  background-size: 220% auto;
+
+  -webkit-background-clip: text;
+
+  color: transparent;
+
+  animation:
+    titleMove 7s linear infinite;
+}
+
+.welcome p {
+
+  margin:
+    0 0
+    28px;
+
+  color: var(--muted);
+
+  font-size: 1rem;
+}
+
+.start-button {
+
+  border:
+    1px solid
+    rgba(255,255,255,.16);
+
+  background:
+    rgba(255,255,255,.08);
+
+  color: white;
+
+  border-radius: 999px;
+
+  min-width: 220px;
+
+  padding:
+    16px
+    28px;
+
+  display:
+    inline-flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 12px;
+
+  cursor: pointer;
+
+  backdrop-filter: blur(20px);
+
+  font-weight: 800;
+
+  letter-spacing: .08em;
+
+  box-shadow:
+    0 20px 60px
+    rgba(73,74,255,.16);
+
+  transition:
+    transform .2s ease,
+    background .2s ease,
+    box-shadow .2s ease;
+}
+
+.start-button:hover {
+
+  transform:
+    translateY(-2px)
+    scale(1.02);
+
+  background:
+    rgba(255,255,255,.13);
+
+  box-shadow:
+    0 28px 80px
+    rgba(92,84,255,.27);
+}
+
+.start-icon {
+
+  display: grid;
+
+  place-items: center;
+
+  width: 29px;
+  height: 29px;
+
+  border-radius: 50%;
+
+  background:
+    rgba(255,255,255,.14);
+}
+
+.status {
+
+  min-height: 20px;
+
+  margin-top: 12px;
+
+  color:
+    #ffb6cf;
+
+  font-size: .82rem;
+}
+
+
+/* =========================================================
+   LYRIC STAGE
+========================================================= */
+
+.lyric-stage {
+
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+
+  z-index: 15;
+
+  transform:
+    translate(-50%, -50%);
+
+  width:
+    min(92vw, 1150px);
+
+  max-height:
+    45vh;
+
+  display:
+    grid;
+
+  place-items:
+    center;
+
+  text-align: center;
+
+  opacity: 0;
+
+  pointer-events: none;
+
+  transition:
+    opacity .35s ease;
+}
+
+.lyric-stage.visible {
+  opacity: 1;
+}
+
+.line-glow {
+
+  position: absolute;
+
+  left: 15%;
+  right: 15%;
+
+  top: 20%;
+  bottom: 20%;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(132,116,255,.24),
+      transparent 70%
+    );
+
+  filter:
+    blur(40px);
+
+  opacity: .8;
+}
+
+.line-text {
+
+  position: relative;
+
+  width: 100%;
+
+  padding:
+    8px 24px;
+
+  font-size:
+    clamp(
+      2rem,
+      5vw,
+      5rem
+    );
+
+  line-height: 1.22;
+
+  font-weight: 800;
+
+  letter-spacing: .012em;
+
+  overflow-wrap:
+    anywhere;
+
+  word-break:
+    normal;
+
+  text-wrap:
+    balance;
+
+  filter:
+    drop-shadow(
+      0 0 24px
+      rgba(255,255,255,.12)
+    );
+}
+
+/* ==========================================================
+   TỪNG TỪ LYRIC
+========================================================== */
+
+.word {
+  display: inline-block;
+
+  /*
+     QUAN TRỌNG:
+     Từ chưa được hát tới sẽ hoàn toàn biến mất.
+  */
+  opacity: 0;
+  visibility: hidden;
+
+  transform:
+    translateY(8px)
+    scale(0.96);
+
+  filter:
+    blur(4px);
+
+  /*
+     Không làm layout nhảy mạnh
+  */
+  will-change:
+    opacity,
+    transform,
+    filter;
+
+  transition:
+    opacity 0.16s ease,
+    transform 0.18s ease,
+    filter 0.18s ease;
+}
+
+
+/*
+   TỪ ĐÃ TỚI TIMESTAMP
+*/
+
+.word.active {
+  opacity: 1;
+
+  visibility: visible;
+
+  transform:
+    translateY(0)
+    scale(1);
+
+  filter:
+    blur(0);
+}
+
+
+/* ==========================================================
+   KHOẢNG TRẮNG GIỮA CÁC TỪ
+========================================================== */
+
+.space {
+  opacity: 0;
+
+  visibility: hidden;
+
+  transition:
+    opacity 0.12s ease;
+}
+
+
+.space.active {
+  opacity: 1;
+
+  visibility: visible;
+}
+@keyframes wordIn {
+
+  from {
+
+    opacity: 0;
+
+    filter:
+      blur(12px);
+
+    transform:
+      translateY(14px)
+      scale(.95);
+  }
+
+  to {
+
+    opacity: 1;
+
+    filter:
+      blur(0);
+
+    transform:
+      translateY(0)
+      scale(1);
+  }
+}
+
+@keyframes wordShimmer {
+
+  from {
+    background-position: 0% center;
+  }
+
+  to {
+    background-position: 180% center;
+  }
+}
+
+.space {
+  display: inline-block;
+  width: .28em;
+}
+
+
+/* =========================================================
+   SPECIAL HEART
+========================================================= */
+
+.special {
+
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 25;
+
+  display: grid;
+
+  place-items: center;
+
+  align-content: center;
+
+  opacity: 0;
+
+  pointer-events: none;
+}
+
+.special.show {
+
+  animation:
+    specialFade 1.15s ease forwards;
+}
+
+@keyframes specialFade {
+
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.heart-wrap {
+
+  position: relative;
+
+  width: 180px;
+  height: 180px;
+
+  display:
+    grid;
+
+  place-items:
+    center;
+
+  animation:
+    heartFloat 4s ease-in-out infinite;
+}
+
+@keyframes heartFloat {
+
+  0%,
+  100% {
+    transform:
+      translateY(0);
+  }
+
+  50% {
+    transform:
+      translateY(-8px);
+  }
+}
+
+.heart {
+
+  position: relative;
+
+  z-index: 2;
+
+  font-size:
+    clamp(
+      6rem,
+      11vw,
+      10rem
+    );
+
+  line-height: 1;
+
+  background:
+    linear-gradient(
+      145deg,
+      #ffb0ec,
+      #ff4e9d 55%,
+      #ff7ad5
+    );
+
+  -webkit-background-clip: text;
+
+  color: transparent;
+
+  filter:
+    drop-shadow(
+      0 0 18px
+      rgba(255,89,191,.65)
+    );
+
+  animation:
+    heartBeat 1.65s ease-in-out infinite;
+}
+
+@keyframes heartBeat {
+
+  0%,
+  100% {
+    transform:
+      scale(1);
+  }
+
+  12% {
+    transform:
+      scale(1.12);
+  }
+
+  22% {
+    transform:
+      scale(.97);
+  }
+
+  34% {
+    transform:
+      scale(1.08);
+  }
+}
+
+.heart-glow {
+
+  position: absolute;
+
+  inset: 12px;
+
+  border-radius: 50%;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(255,78,188,.42),
+      transparent 70%
+    );
+
+  filter:
+    blur(25px);
+
+  animation:
+    glowPulse 1.65s ease-in-out infinite;
+}
+
+@keyframes glowPulse {
+
+  0%,
+  100% {
+    transform:
+      scale(.9);
+
+    opacity: .5;
+  }
+
+  22% {
+    transform:
+      scale(1.18);
+
+    opacity: 1;
+  }
+}
+
+.special-name {
+
+  margin-top: 6px;
+
+  font-size:
+    clamp(
+      3rem,
+      8vw,
+      7rem
+    );
+
+  line-height: 1;
+
+  font-weight: 800;
+
+  letter-spacing: .02em;
+
+  background:
+    linear-gradient(
+      90deg,
+      #fff,
+      #ffb8eb,
+      #fff
+    );
+
+  background-size: 180% auto;
+
+  -webkit-background-clip: text;
+
+  color: transparent;
+
+  animation:
+    titleMove 4s linear infinite;
+
+  text-shadow:
+    0 0 30px
+    rgba(255,255,255,.15);
+}
+
+.special-subtitle {
+  min-height: 20px;
+}
+
+
+/* =========================================================
+   HEART PARTICLES
+========================================================= */
+
+.heart-particles {
+
+  position: absolute;
+
+  inset: 0;
+
+  pointer-events: none;
+}
+
+.heart-particle {
+
+  position: absolute;
+
+  color:
+    rgba(255,130,205,.9);
+
+  font-size:
+    12px;
+
+  animation:
+    heartParticle 3.5s ease-out forwards;
+}
+
+@keyframes heartParticle {
+
+  from {
+
+    opacity: 0;
+
+    transform:
+      translate3d(0,0,0)
+      scale(.5);
+  }
+
+  15% {
+    opacity: 1;
+  }
+
+  to {
+
+    opacity: 0;
+
+    transform:
+      translate3d(
+        var(--tx),
+        var(--ty),
+        0
+      )
+      scale(1.15);
+  }
+}
+
+
+/* =========================================================
+   RESTART
+========================================================= */
+
+.restart-button {
+
+  position: absolute;
+
+  right: 18px;
+  bottom: 18px;
+
+  z-index: 40;
+
+  border:
+    1px solid
+    rgba(255,255,255,.12);
+
+  background:
+    rgba(0,0,0,.22);
+
+  color:
+    rgba(255,255,255,.84);
+
+  border-radius:
+    999px;
+
+  padding:
+    10px 15px;
+
+  cursor:
+    pointer;
+
+  backdrop-filter:
+    blur(14px);
+}
+
+
+/* =========================================================
+   HIDDEN MEDIA
+========================================================= */
+
+#media {
+
+  position: fixed;
+
+  width: 1px;
+  height: 1px;
+
+  left: -10000px;
+  top: -10000px;
+
+  opacity: 0;
+
+  pointer-events: none;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 700px) {
+
+  .password-card {
+    padding:
+      30px 20px 24px;
+  }
+
+  .line-text {
+
+    font-size:
+      clamp(
+        1.75rem,
+        8vw,
+        3rem
+      );
+
+    padding:
+      8px 12px;
+  }
+
+  .welcome h1 {
+
+    font-size:
+      clamp(
+        2rem,
+        9vw,
+        3rem
+      );
+  }
+}
+
+/* ==========================================================
+   COUNTDOWN
+========================================================== */
+
+.countdown {
+  position: fixed;
+
+  inset: 0;
+
+  z-index: 30;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-align: center;
+
+  opacity: 0;
+
+  visibility: hidden;
+
+  pointer-events: none;
+
+  transform:
+    scale(0.96);
+
+  transition:
+    opacity 0.35s ease,
+    transform 0.35s ease,
+    visibility 0.35s ease;
+}
+
+
+.countdown.show {
+
+  opacity: 1;
+
+  visibility: visible;
+
+  transform:
+    scale(1);
+}
+
+
+/*
+   Dòng nhỏ phía trên
+*/
+
+.countdown-label {
+
+  font-size:
+    clamp(12px, 1.3vw, 17px);
+
+  letter-spacing:
+    0.28em;
+
+  text-transform:
+    uppercase;
+
+  opacity:
+    0.7;
+
+  margin-bottom:
+    18px;
+}
+
+
+/*
+   SỐ 5 4 3 2 1 0
+*/
+
+.countdown-number {
+
+  font-size:
+    clamp(90px, 16vw, 190px);
+
+  font-weight:
+    700;
+
+  line-height:
+    0.9;
+
+  letter-spacing:
+    -0.05em;
+
+  color:
+    white;
+
+  text-shadow:
+
+    0 0 12px rgba(255,255,255,0.9),
+
+    0 0 35px rgba(150,190,255,0.75),
+
+    0 0 75px rgba(100,150,255,0.5);
+
+  animation:
+    countdownPulse 0.95s ease-in-out infinite;
+}
+
+
+/*
+   Hiệu ứng số
+*/
+
+@keyframes countdownPulse {
+
+  0% {
+
+    transform:
+      scale(0.92);
+
+    opacity:
+      0.72;
+  }
+
+  50% {
+
+    transform:
+      scale(1);
+
+    opacity:
+      1;
+  }
+
+  100% {
+
+    transform:
+      scale(0.92);
+
+    opacity:
+      0.72;
+  }
+}
